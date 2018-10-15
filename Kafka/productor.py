@@ -1,5 +1,6 @@
 # MetricCollector
 from kafka import KafkaProducer
+import json
 
 topicName = 'ebay_metric'
 serverAddr = 'localhost:9092'
