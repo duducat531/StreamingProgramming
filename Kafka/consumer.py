@@ -4,7 +4,7 @@ from Sql.DBWriter import DBWriter
 topicName = 'ebay_metric'
 serverAddr = 'localhost:9092'
 
-dbWriter = DBWriter
+dbWriter = DBWriter()
 
 consumer = KafkaConsumer(topicName)
 for metricData in consumer:
